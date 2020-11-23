@@ -58,14 +58,14 @@ public class Enemy {
 
     /**
      * フィールド変数(name)に値を代入するsetterメソッド
-     * @param name
+     * @param name  enemyの名前
      */
     public void setName(String name){
         this.name=name;
     }
     /**
      * フィールド変数(hitPoint)に値を代入するsetterメソッド
-     * @param hitPoint　enemyの名前
+     * @param hitPoint　enemyのHP
      */
     public void setHitpoint(int hitPoint){
         this.hitPoint=hitPoint;
