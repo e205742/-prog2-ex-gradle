@@ -56,29 +56,62 @@ public class Enemy {
         }      
     }
 
-
+    /**
+     * フィールド変数(name)に値を代入するsetterメソッド
+     * @param name
+     */
     public void setName(String name){
         this.name=name;
     }
+    /**
+     * フィールド変数(hitPoint)に値を代入するsetterメソッド
+     * @param hitPoint　enemyの名前
+     */
     public void setHitpoint(int hitPoint){
         this.hitPoint=hitPoint;
     }
+    /**
+     * フィールド変数(attack)に値を代入するsetterメソッド
+     * @param attack　enemyの攻撃力
+     */
     public void setAttack(int attack){
         this.attack=attack;
     }
+    /**
+     * フィールド変数(dead)に値を代入するsetterメソッド
+     * @param dead enemyの生死の状態
+     */
     public void setDead(boolean dead){
         this.dead=dead;
     }
+    
 
+
+    /**
+     * フィールド変数nameにアクセスすgetterメソッド
+     * @return enemyの名前
+     */
     public String getName(){
         return this.name;
     }
+    /**
+     * フィールド変数hitPointにアクセスするgetterメソッド
+     * @return　enemyの現在のHP
+     */
     public int getHitpoint(){
         return this.hitPoint;
     }
+    /**
+     * フィールド変数attackにアクセスするgetterメソッド
+     * @return　enemyの攻撃力
+     */
     public int getAttack(){
         return this.attack;
     }
+    /**
+     * フィールド変数deadにアクセスするgetterメソッド
+     * @return　enemyの生死の状態
+     */
     public boolean getDead(){
         return this.dead;
     }

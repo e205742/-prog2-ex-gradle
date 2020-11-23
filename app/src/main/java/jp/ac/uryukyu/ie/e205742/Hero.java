@@ -51,29 +51,64 @@ public class Hero {
             System.out.printf("勇者%sは道半ばで力尽きてしまった。\n", name);
         }
     }
+    
 
+
+    /**
+     * フィールド変数(name)に値を代入するsetterメソッド
+     * @param name　ヒーローの名前
+     */
     public void setName(String name){
         this.name=name;
     }
+    /**
+     * フィールド変数(hitPoint)に値を代入するsetterメソッド
+     * @param hitPoint　ヒーローの名前
+     */
     public void setHitpoint(int hitPoint){
         this.hitPoint=hitPoint;
     }
+    /**
+     * フィールド変数(attack)に値を代入するsetterメソッド
+     * @param attack　ヒーローの攻撃力
+     */
     public void setAttack(int attack){
         this.attack=attack;
     }
+    /**
+     * フィールド変数(dead)に値を代入するsetterメソッド
+     * @param dead ヒーローの生死の状態
+     */
     public void setDead(boolean dead){
         this.dead=dead;
     }
 
+
+    /**
+     * フィールド変数nameにアクセスすgetterメソッド
+     * @return ヒーローの名前
+     */
     public String getName(){
         return this.name;
     }
+    /**
+     * フィールド変数hitPointにアクセスするgetterメソッド
+     * @return　ヒーローの現在のHP
+     */
     public int getHitpoint(){
         return this.hitPoint;
     }
+    /**
+     * フィールド変数attackにアクセスするgetterメソッド
+     * @return　ヒーローの攻撃力
+     */
     public int getAttack(){
         return this.attack;
     }
+    /**
+     * フィールド変数deadにアクセスするgetterメソッド
+     * @return　ヒーローの生死の状態
+     */
     public boolean getDead(){
         return this.dead;
     }
